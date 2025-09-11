@@ -1,0 +1,5 @@
+text links for T-SQL Labs
+
+https://microsoftlearning.github.io/dp-080-Transact-SQL/
+
+https://github.com/microsoftlearning/dp-080-Transact-SQL/

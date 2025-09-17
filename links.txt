@@ -8,3 +8,6 @@ https://github.com/MicrosoftLearning/DP-900T00A-Azure-Data-Fundamentals/
 
 https://github.com/MicrosoftLearning/dp-300-database-administrator/tree/master
 https://github.com/MicrosoftLearning/dp-300-database-administrator/blob/master/Instructions/Labs/01-provision-sql-vm.md
+
+Intro SQL
+https://learn.microsoft.com/en-us/sql/t-sql/lesson-2-configuring-permissions-on-database-objects?view=sql-server-ver17

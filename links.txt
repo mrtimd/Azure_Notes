@@ -1,5 +1,10 @@
 text links for T-SQL Labs
 
 https://microsoftlearning.github.io/dp-080-Transact-SQL/
-
 https://github.com/microsoftlearning/dp-080-Transact-SQL/
+
+https://learn.microsoft.com/en-us/training/courses/dp-900t00
+https://github.com/MicrosoftLearning/DP-900T00A-Azure-Data-Fundamentals/
+
+https://github.com/MicrosoftLearning/dp-300-database-administrator/tree/master
+https://github.com/MicrosoftLearning/dp-300-database-administrator/blob/master/Instructions/Labs/01-provision-sql-vm.md

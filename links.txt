@@ -1,6 +1,9 @@
 text links for T-SQL Labs
 https://portal.azure.com 
 
+Azure Function Update 2025 - No Templates
+https://learn.microsoft.com/en-us/azure/azure-functions/functions-create-http-endpoint?pivots=programming-language-csharp
+
 https://microsoftlearning.github.io/dp-080-Transact-SQL/
 https://github.com/microsoftlearning/dp-080-Transact-SQL/
 

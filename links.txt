@@ -15,3 +15,6 @@ https://github.com/MicrosoftLearning/dp-300-database-administrator/blob/master/I
 
 Intro SQL
 https://learn.microsoft.com/en-us/sql/t-sql/lesson-2-configuring-permissions-on-database-objects?view=sql-server-ver17
+
+cmd line function
+https://learn.microsoft.com/en-us/azure/azure-functions/how-to-create-function-azure-cli

@@ -1,0 +1,9 @@
+__Az_Rescue
+
+az account show --query tenantId -o tsv
+
+
+az rest --method get --url "https://graph.microsoft.com/v1.0/organization"
+
+
+https://login.microsoftonline.com/<tenant-id>

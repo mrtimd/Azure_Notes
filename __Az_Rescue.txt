@@ -7,3 +7,57 @@ az rest --method get --url "https://graph.microsoft.com/v1.0/organization"
 
 
 https://login.microsoftonline.com/<tenant-id>
+
+__ Container 
+az group create --location eastus --name myResourceGroup
+
+echo FROM mcr.microsoft.com/hello-world > Dockerfile
+
+az acr create --resource-group myResourceGroup \
+    --name mycontainerregistry57342199 --sku Basic
+	
+az acr build --image sample/hello-world:v1  \
+    --registry mycontainerregistry57342199 \
+    --file Dockerfile .
+	
+az acr repository list --name mycontainerregistry57342199 --output table
+
+az acr repository show-tags --name mycontainerregistry57342199 \
+    --repository sample/hello-world --output table
+
+az acr run --registry mycontainerregistry57342199 \
+    --cmd '$Registry/sample/hello-world:v1' /dev/null
+
+DNS_NAME_LABEL=aci-example-57343229
+
+--to create a container instance. Replace myLocation with an Azure region near you. 
+
+az container create --resource-group myResourceGrouplod57343229 \
+    --name mycontainer \
+    --image mcr.microsoft.com/azuredocs/aci-helloworld \
+    --ports 80 \
+    --dns-name-label $DNS_NAME_LABEL --location myLocation \
+    --os-type Linux \
+    --cpu 1 \
+    --memory 1.5 
+	
+-- to check the provisioning status of the container you created.
+
+az container show --resource-group myResourceGrouplod57343229 \
+    --name mycontainer \
+    --query "{FQDN:ipAddress.fqdn,ProvisioningState:provisioningState}" \
+    --out table 
+
+--From a browser, navigate to your container's FQDN to see it running.
+
+_ end Container
+
+_ Entra
+
+_ end Entra 
+
+_ Cosmos Db
+Query data 
+https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/tutorial-query
+
+

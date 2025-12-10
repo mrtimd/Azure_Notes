@@ -1,0 +1,19 @@
+
+var rnd = new Random();
+for (int i = 1; i <= numOfEvents; i++)
+{
+    var telemetry = new
+    {
+        deviceId = $"device-{rnd.Next(1, 10)}",
+        temperatureC = Math.Round(15 + rnd.NextDouble() * 10, 2),
+        humidityPct = Math.Round(30 + rnd.NextDouble() * 40, 2),
+        timestamp = DateTimeOffset.UtcNow
+    };
+
+    var eventData = new EventData(BinaryData.FromObjectAsJson(telemetry));
+    eventData.ContentType = "application/json";
+    eventData.Properties["schema"] = "telemetry.v2";
+
+    if (!eventBatch.TryAdd(eventData))
+        throw new Exception($"Event {i} is too large for the batch.");
+}

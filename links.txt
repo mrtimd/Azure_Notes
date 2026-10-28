@@ -1,3 +1,10 @@
+MS Navigator Extension: Browse Training Like a Book w TOC
+https://microsoftedge.microsoft.com/addons/detail/ms-training-navigator/pegkndhppcnfjjldkpkmoljdaioceaoc
+
+AI 901
+https://github.com/microsoftlearning/mslearn-ai-fundamentals
+https://learn.microsoft.com/en-us/training/courses/ai-901t00
+
 text links for T-SQL Labs
 https://portal.azure.com 
 
